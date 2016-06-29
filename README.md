@@ -6,7 +6,7 @@ This tutorial will walk you trough a simple problem using the node version of ch
 
 You can fid some information about it [here](https://www.npmjs.com/package/devtool).
 
-1. ``npm install devtool -g `` you want to install it globally because we tell you so.
+1. ``npm install devtool -g `` you want to install it globally.
 2. Once it's installed you can run it by writing ``devtool <the file you want to debug>`` example: in the tutorial you would want to run ``devtool server.js``
 3. Now you will be able to debug the file you chose, if that file imports any other files, those will be included too.
 4. __You cant have node server and the devtool running at the same time__
