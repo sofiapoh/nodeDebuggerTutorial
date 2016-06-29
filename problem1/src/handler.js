@@ -13,14 +13,14 @@ function handler (req, res)  {
 		const ext = url.split('.')[1];
 		fs.readFile(__dirname + "/../public" + url, (err, data) => {
 			if (err){
-				res.writeHead(404)	
+				res.writeHead(404)
 				res.end('<h2> page not found </h2>')
-			}else { 
+			}else {
 				res.writeHead(200, { 'Content-type': 'text/' + ext });
 				res.end(data);
 			}
 		});
-	} 
+	}
 }
 
 
