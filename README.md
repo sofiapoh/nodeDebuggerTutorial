@@ -4,7 +4,7 @@ This tutorial will walk you trough a simple problem using the node version of ch
 
 ###First you need to install devtool
 
-You can fid some information about it [here](https://www.npmjs.com/package/devtool).
+You can find some information about it [here](https://www.npmjs.com/package/devtool).
 
 1. ``npm install devtool -g `` you want to install it globally.
 2. Once it's installed you can run it by writing ``devtool <the file you want to debug>`` example: in the tutorial you would want to run ``devtool server.js``
